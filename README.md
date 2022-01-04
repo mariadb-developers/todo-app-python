@@ -11,7 +11,7 @@
 This application is made of two parts:
 
 * Client
-    - communicates with the API.
+    - web UI that communicates with REST endpoints available through an API app (see below).
     - is a React.js project located in the [client](src/client) folder.
 * API
     - uses the [MariaDB Python Connector](https://github.com/mariadb-corporation/mariadb-connector-python) to connect to MariaDB.
@@ -94,7 +94,7 @@ CREATE TABLE todo.tasks (
 This application is made of two parts:
 
 * Client
-    - communicates with the API.
+    - web UI that communicates with REST endpoints available through an API app (see below).
     - is a React.js project located in the [client](src/client) (/src/client) folder.
 * API
     - uses the [MariaDB Python Connector](https://github.com/mariadb-corporation/mariadb-connector-python) to connect to MariaDB.
