@@ -89,7 +89,7 @@ CREATE TABLE todo.tasks (
 );
 ```
 
-## 4.) Configure, Build and Run the App <a name="app"></a>
+## 4.) Configure, Build and Run the Apps <a name="app"></a>
 
 This application is made of two parts:
 
@@ -168,7 +168,7 @@ Install the necessary packages by executing the following command (within [/src/
 $ pip3 install flask mariadb python-dotenv
 ```
 
-### d.) Build and run the [API app](src/api) <a name="build-run-api"></a>
+### d.) Build and run the Python [API app](src/api) <a name="build-run-api"></a>
 
 Once you've pulled down the code and have verified that all of the required packages are installed you're ready to run the application! 
 
@@ -180,11 +180,11 @@ $ python3 api.py
 
 **Note:** You will need to use seperate terminals for the `client` and `api` apps.
 
-### e.) Build and run the [UI (Client) app](src/client) <a name="build-run-client"></a>
+### e.) Build and run the [UI (Client) app](https://github.com/mariadb-developers/todo-app-client) <a name="build-run-client"></a>
 
-Once the API project is running you can now communicate with the exposed endpoints directly (via HTTP requests) or with the application UI, which is contained with the [client](src/client) folder of this repo.
+Once the API project is running you can now communicate with the exposed endpoints directly (via HTTP requests) or with the application UI, which is contained with the `client` folder of this repo.
 
-To start the [client](src/client) application follow the instructions [here](https://github.com/mariadb-developers/todo-app-client).
+To start the `client` application follow the instructions [here](https://github.com/mariadb-developers/todo-app-client).
 
 ## Support and Contribution <a name="support-contribution"></a>
 
