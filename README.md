@@ -17,7 +17,7 @@ This application is made of two parts:
     - uses the [MariaDB Python Connector](https://github.com/mariadb-corporation/mariadb-connector-python) to connect to MariaDB.
     - is a Python project located in the [api](src/api) folder.
 
-This README will walk you through the steps for getting the TODO web application up and running using MariaDB.
+This README will walk you through the steps for getting the `TODO` web application up and running using MariaDB.
 
 # Table of Contents
 1. [Requirements](#requirements)
